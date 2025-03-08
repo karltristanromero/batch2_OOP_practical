@@ -5,6 +5,6 @@ second_number = float(input("Enter the second number: "))
 
 try:
     remainder = first_number % second_number
-    print(f"The remainder of the quotient is {remainder}.")
+    print(f"If we divide {first_number} by {second_number}, the remainder is {remainder}.")
 except ZeroDivisionError:
     print("You cannot divide by zero.")
