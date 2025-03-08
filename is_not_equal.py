@@ -1,7 +1,7 @@
 # Prog02: Create a program that ask user to input 2 numbers. Print 'Not Equal' when the numbers are not the same.
 
-x = float(input("Enter first number: "))
-y = float(input("Enter second number: "))
+first_number = float(input("Enter the first number: "))
+second_number = float(input("Enter the second number: "))
 
-if x != y:
+if first_number != second_number:
     print("Not Equal.")
